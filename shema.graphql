@@ -4,7 +4,7 @@ schema {
 }
 
 """
-The `@defer` directive may be provided for fragment spreads and inline fragments
+The `@defer` directive ma be provided for fragment spreads and inline fragments
 to inform the executor to delay the execution of the current fragment to
 indicate deprioritization of the current fragment. A query with `@defer`
 directive will cause the request to potentially return multiple responses, where
